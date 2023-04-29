@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: yellow;
+ 
+}
+.minicontainer{
+display: flex;
+gap: 2rem;
+justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 50%;
+    width: 70%;
+   
+}
+.experience,.websitemade,.app{
+   width:13rem;
+    height: 12rem;
+    position: relative;
+    padding: 0rem 2rem 2rem 2rem;
+    gap: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid green;
+}
+.counter{
+    padding-top: 2rem;
+        font-size: 3rem;
+        font-weight: bold;
+        color: green;
+}
+/* h1{
+    padding-top: 2rem;
+    font-size: 3rem;
+    font-weight: bold;
+    color: green;
+} */
+
+.icons{
+    position: absolute;
+    bottom: 89%;
+
+
+}

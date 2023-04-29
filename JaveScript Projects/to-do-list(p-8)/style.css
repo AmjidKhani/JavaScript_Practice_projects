@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    margin: 0 auto;
+    background-color: greenyellow;
+        display: flex;
+            justify-content: center;
+            align-items: center;
+}
+.container{
+    width: 30%;
+position: absolute;
+top: 30%;
+font-size: large;
+    
+    background-color: yellow;
+}
+
+.inputtask {
+    width: 100%;
+    
+    box-sizing: border-box;
+    padding: 15px;
+    border: none;
+    outline: none;
+  
+}
+.unorderlisting{
+    list-style: none;
+}
+.fa-square-check{
+    position: absolute;
+    right: 10%;
+    color: black;
+    cursor: pointer;
+}
+.fa-trash {
+    position: absolute;
+    right: 2%;
+    color: red;
+    cursor: pointer;
+}
+li{
+    border-bottom: 1px solid lightgray;
+    padding: 7px;
+}
+.hide {
+color: lightgray;
+text-decoration: line-through;
+    
+}
+.fa-solid {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}

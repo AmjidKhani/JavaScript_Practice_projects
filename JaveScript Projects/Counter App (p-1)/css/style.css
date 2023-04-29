@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.counter{
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    /* border: 2px solid yellowgreen; */
+}
+
+.minicont{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+.minus ,.reset,.plus{
+  
+  
+    padding: 0.3rem 2rem;
+    color: white;
+    border: none;
+}
+.minus{
+background-color: red;
+}
+.reset{
+    background-color: gray;
+}
+   .plus {
+       background-color: green;
+   }

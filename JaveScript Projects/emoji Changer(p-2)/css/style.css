@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.homepage{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+}
+.homepage{
+border: 2px solid pink;
+}
+.container{
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+   background-color: white;
+   width: 35rem;
+    height: 10rem;
+    align-items: center;
+border-radius: 10px;
+position: relative;
+}
+.emoji{
+    overflow: hidden;
+    position: absolute;
+    /* background-color: yellow; */
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        top: 20%;
+    left: 50%;
+transform: translateX(-25px);
+display: flex;    
+}
+.fa-regular{
+   
+  margin: 1px;
+  transition: transform 0.3s;
+    transform: translateX(-0px);
+}
+.stars{
+    position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 20%;
+}
+
+.active{
+   color: gold;
+}
